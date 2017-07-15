@@ -1,0 +1,38 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joeLloyd/react-boilerplate.git",
+  "author": "Joseph M. Lloyd <joe.lloyd.22.24@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "pm2-dev start dist/server.js",
+    "start-dev": "webpack --display-error-details --colors --progress --watch"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "compression-webpack-plugin": "^1.0.0",
+    "dotenv-webpack": "^1.5.3",
+    "eslint": "^4.2.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.1.0",
+    "react": "^15.6.1",
+    "react-helmet": "^5.1.3",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-api-middleware": "^1.0.3",
+    "webpack": "^3.2.0",
+    "webpack-dotenv-plugin": "^2.0.2",
+    "React": "latest"
+  }
+}
